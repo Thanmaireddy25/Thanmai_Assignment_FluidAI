@@ -1,0 +1,7 @@
+from google.colab import files
+
+# Upload the file
+uploaded = files.upload()
+
+# List files again to verify upload
+print(os.listdir("/content/"))
