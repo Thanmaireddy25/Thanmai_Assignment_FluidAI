@@ -125,15 +125,4 @@ for category, summary in summary_results.items():
     print(summary.strip())
     print("-" * 80)
 
-pip install PyMuPDF spacy transformers torch accelerate sentencepiece
 
-import os
-print(os.listdir("/content/"))
-
-from google.colab import files
-
-# Upload the file
-uploaded = files.upload()
-
-# List files again to verify upload
-print(os.listdir("/content/"))
