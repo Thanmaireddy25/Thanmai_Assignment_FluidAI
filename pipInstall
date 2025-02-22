@@ -1,0 +1,1 @@
+pip install PyMuPDF spacy transformers torch accelerate sentencepiece
